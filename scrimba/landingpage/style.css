@@ -1,0 +1,63 @@
+/* Typography */
+
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background: #2e354f;
+    width: 500px; 
+}
+
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    
+}
+
+p{
+    font-size: 18px;
+}
+
+h2, p{
+    margin: 0;
+    padding: 10px; 
+}
+
+/* Layout */
+
+.internal-link{
+    color: #ef5839;
+}
+
+.container{
+    width: 650px; 
+    padding: 10px; 
+    margin: 50px auto; 
+}
+
+
+.btn{
+    text-decoration: none;
+    background: #ef5839;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px; 
+
+}
+
+.btn:hover, .btn:focus{
+    background: #d4b44c;
+    color: #2e354f;
+    
+}
+
+
+
+

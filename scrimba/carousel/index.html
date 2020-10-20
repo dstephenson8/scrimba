@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class = 'carousel'>
+            <div class = "carousel-item carousel-item-visible" > 
+                <img src = images/1.jpg alt = " a picture of the joker from batman">
+            </div>
+            <div class = "carousel-item"> 
+                <img src = images/2.jpg alt = " a picture of the poster from baby driver">
+            </div>
+            <div class = "carousel-item"> 
+                <img src = images/3.jpg alt = " a picture of the poster from parasite" >
+            </div>
+           
+            <div class = "carousel-actions">
+                <button id = "carousel-button-prev" aria-label = "Previous Slclasse"> < </button> 
+               <button id = "carousel-button-next" aria-label = "Next Slclasse"> > </button>
+           </div>
+          
+        </div>
+    <!--
+        Creating the base HTML structure for the carousel
+    
+        1) Create a parent div of 'carousel'
+        2) Create 3 divs within the div of 'carousel' called 'carousel-item'
+        3) Add images to each 'carousel-item' div, with the image src being 'images/1.jpg' - make sure to increment the image src number for each div, e.g. 'images/1.jpg', 'images/2.jpg', 'images/3.jpg' - all the images are provclassed in the images folder
+        4) Once you have a parent div of 'carousel', and 3 'carousel-item' divs with images insclasse, make a new div called 'carousel-actions' which sits insclasse 'carousel' and not within 'carousel-item'
+        5) Add two buttons insclasse 'carousel-actions', give them each an class, the first one being 'carousel-button-prev' and the second one being 'carousel-button-next'
+        6) The content for the prev button will be '<' and the content for the next button will be '>' - arrows that show left and right
+        7) On those buttons (prev & next) add aria-labels so that screen readers can read the text out loud to the user, on the previous slclasse button add 'Previous slclasse', and on the next slclasse button, add 'Next slclasse' - screen readers aren't great at describing '<' and '>' - so that's why we are adding aria-labels!
+        8) Add 'carousel-item-visible' to the first 'carousel-item' class - the reason for this is because we will eventually hclasse all carousel items, but we always want to show the first one on loading the page!   
+    --> 
+        <script src="index.js"></script>
+    </body>
+</html>
